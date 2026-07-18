@@ -1,20 +1,3 @@
-"""
-label.py
-
-Pre-label a HuggingFace image dataset for infant/baby safety using a VLM.
-Produces, per image, a concise reasoning trace + a binary safe flag (1/0) +
-a list of hazard keywords drawn from a fixed vocabulary.
-
-Output is written incrementally to labels.jsonl (checkpointed / resumable).
-Run human review on labels.jsonl afterward, then merge with merge.py.
-
-Usage:
-    export PROMPT_UPSAMPLER_API_TOKEN=...
-    export PROMPT_UPSAMPLER_ENDPOINT_URL=...
-    huggingface-cli login          # if the dataset is private
-    python label.py
-"""
-
 import os
 import io
 import json
@@ -24,9 +7,6 @@ from tqdm import tqdm
 from datasets import load_dataset
 from openai import OpenAI
 
-# --------------------------------------------------------------------------
-# Config
-# --------------------------------------------------------------------------
 DATASET_NAME = "podolinsky/Contextual-Reasoning"
 DATA_FILES = "scenario-frames/**"          # only label the scenario-frames subset
 SPLIT = "train"
@@ -34,9 +14,6 @@ IMAGE_COLUMN = "image"
 MODEL = "gpt-5.4"
 CKPT = "labels.jsonl"
 
-# --------------------------------------------------------------------------
-# Hazard vocabulary (kept fixed so labels stay consistent)
-# --------------------------------------------------------------------------
 HAZARD_KEYWORDS = [
     # choking
     "coin", "battery", "small_toy", "marble", "button",
@@ -60,9 +37,7 @@ HAZARD_KEYWORDS = [
 HAZARD_SET = set(HAZARD_KEYWORDS)
 VOCAB_STR = ", ".join(HAZARD_KEYWORDS)
 
-# --------------------------------------------------------------------------
 # Prompt
-# --------------------------------------------------------------------------
 PROMPT = f"""Analyze this image for infant/baby safety hazards.
 Return ONLY valid JSON, no other text:
 {{"reasoning": "...", "safe": 0 or 1, "hazard_keywords": [list]}}
@@ -84,9 +59,7 @@ client = OpenAI(
 )
 
 
-# --------------------------------------------------------------------------
 # Helpers
-# --------------------------------------------------------------------------
 def encode_image(pil_img):
     buf = io.BytesIO()
     pil_img.convert("RGB").save(buf, format="JPEG")
@@ -141,9 +114,7 @@ def load_checkpoint(path):
     return done
 
 
-# --------------------------------------------------------------------------
 # Main
-# --------------------------------------------------------------------------
 def main():
     print(f"Loading {DATASET_NAME} [{DATA_FILES}] [{SPLIT}] ...")
     ds = load_dataset(DATASET_NAME, data_files=DATA_FILES, split=SPLIT)
