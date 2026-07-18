@@ -1,0 +1,64 @@
+{"idx": 0, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The baby doll is sitting on a tall chair, creating an elevated fall risk for a real infant. No other listed hazards are clearly visible nearby."}
+{"idx": 1, "safe": 0, "hazard_keywords": ["elevated_surface", "cleaning_product"], "reasoning": "The baby is on an elevated_surface and could fall from the tall chair. A cleaning_product is also left on the desk within reach, which could poison a baby."}
+{"idx": 2, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The baby is sitting on a tall chair next to a desk, creating a fall risk from an elevated surface."}
+{"idx": 3, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The chair is an elevated surface, so a baby placed there could roll or climb off and fall. No other listed hazards are visible."}
+{"idx": 4, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The baby is on an elevated chair, which creates a fall risk if they roll or crawl off. No other listed hazards are visible."}
+{"idx": 5, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The baby is on an elevated_surface, and a fall from the large chair could injure them. No other listed hazards are visible."}
+{"idx": 6, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "A baby on this large chair could fall from the seat, creating an elevated surface hazard."}
+{"idx": 7, "safe": 0, "hazard_keywords": ["knife", "blade"], "reasoning": "A knife is on the chair next to the baby, creating a serious cut and stabbing hazard. The baby could easily reach or fall onto the blade."}
+{"idx": 8, "safe": 1, "hazard_keywords": [], "reasoning": "There are no listed hazards that are visible within reach of the baby."}
+{"idx": 9, "safe": 0, "hazard_keywords": ["dangerous_appliance"], "reasoning": "The dishwasher is open next to the baby, who could crawl into it and get trapped or injured."}
+{"idx": 10, "safe": 0, "hazard_keywords": ["dangerous_appliance"], "reasoning": "A baby on the kitchen counter is on an elevated_surface and could fall. The open air fryer may also be hot and can burn a baby if recently used."}
+{"idx": 11, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "A baby is placed on a kitchen counter, which is an elevated surface and creates a fall risk."}
+{"idx": 12, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The baby is high on the shelf and is at risk of falling."}
+{"idx": 13, "safe": 1, "hazard_keywords": [], "reasoning": "There are no listed hazards that are visible within reach of the baby."}
+{"idx": 14, "safe": 1, "hazard_keywords": [], "reasoning": "A baby is on the floor, but no listed hazards like cords, outlets, sharp objects, or choking items are visible within reach. The area appears clear of obvious infant safety risks from the provided hazard list."}
+{"idx": 15, "safe": 1, "hazard_keywords": [], "reasoning": "There are no listed hazards that are visible within reach of the baby."}
+{"idx": 16, "safe": 0, "hazard_keywords": ["battery"], "reasoning": "A battery is on the table within a baby's reach, creating a serious choking and ingestion hazard. No other listed hazards are clearly present."}
+{"idx": 17, "safe": 0, "hazard_keywords": ["cleaning_product"], "reasoning": "An open bleach cleaner bottle is within a baby's reach on the couch. Cleaning products can poison or burn a baby if touched or swallowed."}
+{"idx": 18, "safe": 0, "hazard_keywords": ["battery"], "reasoning": "A cylindrical battery is within the baby's reach on the table, creating a serious ingestion and poisoning hazard. No other listed hazards are clearly present."}
+{"idx": 19, "safe": 0, "hazard_keywords": ["knife", "blade"], "reasoning": "A knife is lying on the couch within easy reach. Its sharp blade could cause severe cuts to a baby."}
+{"idx": 20, "safe": 0, "hazard_keywords": ["battery"], "reasoning": "A loose battery is within the baby's reach on the table and can cause choking or severe internal injury if swallowed."}
+{"idx": 21, "safe": 1, "hazard_keywords": [], "reasoning": "There are no listed hazards that are visible within reach of the baby."}
+{"idx": 22, "safe": 0, "hazard_keywords": ["scissors"], "reasoning": "Scissors are within the baby's reach on the table, and the sharp blades could cause cuts or puncture injuries."}
+{"idx": 23, "safe": 1, "hazard_keywords": [], "reasoning": "A baby sits safely on the couch, no other listed hazards are clearly within reach."}
+{"idx": 24, "safe": 0, "hazard_keywords": ["small_toy"], "reasoning": "A small ball-like toy on the table is within reach and could be a choking hazard for a baby."}
+{"idx": 25, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The baby is on an elevated surface at the edge of the table and could fall."}
+{"idx": 26, "safe": 1, "hazard_keywords": [], "reasoning": "The baby is sitting safely on the couch."}
+{"idx": 27, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The baby is positioned on the edge of a table and stroller area where they could easily fall. This is an elevated surface that poses a serious injury risk."}
+{"idx": 28, "safe": 1, "hazard_keywords": [], "reasoning": "The baby is secured in the stroller, and there are no listed hazards that are visible within reach of the baby."}
+{"idx": 29, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The baby is on an elevated couch near the edge, creating a fall risk. No other listed hazards are visible."}
+{"idx": 30, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "A baby is hanging partly out of the stroller, indicating a fall risk. No other listed hazards are visible nearby."}
+{"idx": 31, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "The baby is positioned on the top edge of a couch cushion and could fall from an elevated surface."}
+{"idx": 32, "safe": 1, "hazard_keywords": [], "reasoning": "The baby is safely sitting on the chair, and there are no listed hazards that are visible within reach of the baby."}
+{"idx": 33, "safe": 0, "hazard_keywords": ["elevated_surface", "unguarded_height"], "reasoning": "The baby is on the edge of a high table and could fall to the floor. This is an elevated surface and unguarded height hazard for an infant."}
+{"idx": 34, "safe": 1, "hazard_keywords": [], "reasoning": "There are no listed hazards that are visible within reach of the baby."}
+{"idx": 35, "safe": 0, "hazard_keywords": ["knife", "elevated_surface"], "reasoning": "A knife is lying within reach on the table edge, creating a serious cut hazard for a baby. The baby is also next to an elevated surface where objects could be pulled down or the child could be injured."}
+{"idx": 36, "safe": 0, "hazard_keywords": ["knife", "elevated_surface"], "reasoning": "A knife is lying within reach on the table and could cause cuts. The baby is also on an elevated surface, creating a fall risk."}
+{"idx": 37, "safe": 0, "hazard_keywords": ["knife", "elevated_surface"], "reasoning": "A baby is on an elevated surface near the edge and could fall. A knife is within reach and could cause serious cuts."}
+{"idx": 38, "safe": 1, "hazard_keywords": [], "reasoning": "There are no listed hazards that are visible within reach of the baby, who is sitting safely on the chair."}
+{"idx": 39, "safe": 0, "hazard_keywords": ["scissors"], "reasoning": "Scissors are on the floor within reach, creating a cutting injury risk for a baby. The baby is also on a couch, which is an elevated surface and could lead to a fall."}
+{"idx": 40, "safe": 0, "hazard_keywords": ["scissors"], "reasoning": "Scissors are on the couch within a baby's reach and can cause cuts or puncture injuries."}
+{"idx": 41, "safe": 0, "hazard_keywords": ["scissors"], "reasoning": "Scissors are within reach on the couch and can cause cuts or puncture injuries to a baby."}
+{"idx": 42, "safe": 0, "hazard_keywords": ["small_toy"], "reasoning": "A small toy is on the couch and could be a choking hazard for a baby."}
+{"idx": 43, "safe": 0, "hazard_keywords": ["cord", "wire", "outlet"], "reasoning": "Loose electrical cords and wires are on the floor within reach, creating a strangulation and tripping hazard for a baby. An uncovered outlet on the post is also accessible and poses an electric shock risk."}
+{"idx": 44, "safe": 0, "hazard_keywords": ["battery"], "reasoning": "A loose battery is on the couch within reach, which is a serious ingestion and choking hazard for a baby."}
+{"idx": 45, "safe": 0, "hazard_keywords": ["cord", "outlet"], "reasoning": "Loose cords are wrapped around the baby and nearby, creating a strangulation risk. An uncovered outlet is also within reach and poses an electrical hazard."}
+{"idx": 46, "safe": 0, "hazard_keywords": ["battery"], "reasoning": "A battery is on the couch within reach, which is a serious choking and ingestion hazard for a baby."}
+{"idx": 47, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "A baby on this couch could roll or fall off the edge, creating a fall risk from an elevated surface."}
+{"idx": 48, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "A baby on the couch could roll off the elevated surface and be injured. No other listed hazards are clearly present."}
+{"idx": 49, "safe": 0, "hazard_keywords": ["elevated_surface"], "reasoning": "A baby on the couch is on an elevated surface and could roll off and fall."}
+{"idx": 50, "safe": 0, "hazard_keywords": ["knife"], "reasoning": "A knife is on the couch within reach, which could cause serious cuts to a baby."}
+{"idx": 51, "safe": 0, "hazard_keywords": ["knife"], "reasoning": "A knife is on the couch within reach, which could cause serious cuts to a baby."}
+{"idx": 52, "safe": 0, "hazard_keywords": ["knife"], "reasoning": "A knife is on the couch within easy reach, creating a serious cut and puncture hazard for a baby."}
+{"idx": 53, "safe": 0, "hazard_keywords": ["knife"], "reasoning": "A knife is within reach on the couch and could cause serious cuts to a baby."}
+{"idx": 54, "safe": 0, "hazard_keywords": ["knife"], "reasoning": "A knife is placed right next to the baby on the couch, creating a serious cut hazard."}
+{"idx": 55, "safe": 0, "hazard_keywords": ["outlet"], "reasoning": "An uncovered electrical outlet is within a baby's reach and could cause shock if touched. No other listed hazards are visible."}
+{"idx": 56, "safe": 0, "hazard_keywords": ["outlet"], "reasoning": "An uncovered electrical outlet is within a baby's reach and poses an electric shock risk."}
+{"idx": 57, "safe": 0, "hazard_keywords": ["outlet"], "reasoning": "An uncovered electrical outlet is within a baby's reach and poses an electric shock risk. No other listed hazards are visible."}
+{"idx": 58, "safe": 0, "hazard_keywords": ["sunlight"], "reasoning": "Direct sunlight is shining onto the baby in the stroller, which can overheat or irritate a baby. No other listed hazards are visible."}
+{"idx": 59, "safe": 0, "hazard_keywords": ["sunlight"], "reasoning": "Bright sunlight is directly hitting the stroller area and could overheat or discomfort a baby."}
+{"idx": 60, "safe": 0, "hazard_keywords": ["sunlight"], "reasoning": "Strong sunlight is directly hitting the stroller, which can overheat or discomfort a baby."}
+{"idx": 61, "safe": 1, "hazard_keywords": [], "reasoning": "The baby is in a stroller in a clear hallway, and no listed hazards are visible nearby. There are no small objects, cords, sharp items, or dangerous surfaces within reach.."}
+{"idx": 62, "safe": 1, "hazard_keywords": [], "reasoning": "The baby is in a stroller in a clear hallway, and no listed hazards are visible nearby. There are no small objects, cords, sharp items, or dangerous surfaces within reach.."}
+{"idx": 63, "safe": 1, "hazard_keywords": [], "reasoning": "The baby is in a stroller in a clear hallway, and no listed hazards are visible nearby. There are no small objects, cords, sharp items, or dangerous surfaces within reach."}
